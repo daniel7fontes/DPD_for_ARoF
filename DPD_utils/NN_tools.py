@@ -19,7 +19,7 @@ from optic_private.torchUtils import memoryLessDataSet, MLP, train_model, test_m
 
 def NN_training(sigIn, sigRef, param, RoFChannel_model = None):
     
-    num_feat = param.num_input
+    num_feat = param.num_feat
     
     N1 = param.N1
     N2 = param.N2

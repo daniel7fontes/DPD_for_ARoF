@@ -6,7 +6,7 @@ Funções para geração de figuras associadas à análise de resultados de DPD
 """
 
 import numpy as np
-import matplotlib.pytplot as plt
+import matplotlib.pyplot as plt
 
 
 def plotDPD_const(symbTx, symbRx, symbRx_DLA, symbRx_ILA, show = False, savefig = False, file_path = None):
